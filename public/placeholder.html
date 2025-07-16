@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChronoVerse WebGL Placeholder</title>
+  <style>
+      body {
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #0A0A0C; /* chrono-dark-bg */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          color: #00F0FF; /* chrono-electric-blue */
+          font-family: 'GeistMono', monospace;
+          text-align: center;
+      }
+      .message {
+          font-size: 2em;
+          animation: pulse 2s infinite alternate;
+      }
+      @keyframes pulse {
+          from { opacity: 0.7; transform: scale(1); }
+          to { opacity: 1; transform: scale(1.05); }
+      }
+  </style>
+</head>
+<body>
+  <div class="message">
+      <p>ChronoVerse WebGL Game Placeholder</p>
+      <p>Your game will load here!</p>
+  </div>
+</body>
+</html>
